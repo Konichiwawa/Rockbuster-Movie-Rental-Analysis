@@ -9,8 +9,8 @@ The Rockbsuter's data consists of information including payment, rental, and cus
 
 # Steps & Tools 
 DbVisualizer was used to extract ERD diagram to create a data dictionary for the data. 
-SQL was used to import the company data and to manipulate and extract data into Excel files. 
-Tableau was used to create data visualizations using the data from the Excel files.
+SQL was used to import the company data and to manipulate and extract data, and to export it as an Excel file. 
+Tableau was used to create data visualizations using the data from the exported Excel file.
 
 # Resources
 [Rockbuster's Data](https://github.com/Konichiwawa/Rockbuster_Project/files/9541754/dvdrental.zip)
