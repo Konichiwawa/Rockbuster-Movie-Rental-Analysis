@@ -1,4 +1,4 @@
--- This query is used to find the descriptive statistics of Customer table
+-- This query is used to find the most common values in the Customer table
 
 SELECT
 	MODE() WITHIN GROUP (ORDER BY first_name) AS first_name_modal_value,
