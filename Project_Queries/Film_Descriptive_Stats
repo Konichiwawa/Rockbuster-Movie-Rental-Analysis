@@ -1,3 +1,5 @@
+This query is used to find descriptive stats of Film table
+
 SELECT
 	MODE() WITHIN GROUP (ORDER BY title) AS title_modal_value,
 	MAX(release_year) AS maximum_release_year,
