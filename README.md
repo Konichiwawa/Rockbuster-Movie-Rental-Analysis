@@ -5,7 +5,7 @@ Data analysis for a movie rental company, Rockbuster
 The objective of this project is to help preprare Rockbuster before it can launch its online movie rental service. A business analysis must be conducted to answer any key business questions from different departments of the company and to help plan for the launch. 
 
 # Data
-The Rockbsuter's data consists of information including payment, rental, and customer. There are a total of 15 tables containing their specific information when imported to RDBMS and is documented in the data dictionary. 
+The Rockbsuter's data consists of information including payment, rental, and customer. There are a total of 15 tables containing their specific information when imported to RDBMS and they are documented in the data dictionary. 
 
 # Steps & Tools 
 DbVisualizer was used to extract ERD diagram to create a data dictionary for the data. 
