@@ -1,0 +1,8 @@
+-- This is a query used to find the descriptive statistics for Customer table
+
+SELECT
+	MODE() WITHIN GROUP (ORDER BY first_name) AS first_name_modal_value,
+	MODE() WITHIN GROUP (ORDER BY last_name) AS last_name_modal_value,
+	MODE() WITHIN GROUP (ORDER BY email) AS email_modal_value
+FROM customer
+;
