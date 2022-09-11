@@ -1,0 +1,32 @@
+SELECT 
+	A.customer_id,
+	A.first_name AS customer_first_name,
+	A.last_name AS customer_last_name,
+	B.amount AS paid_amount,
+	D.city,
+	E.country,
+	H.title,
+	H.release_year,
+	H.rental_duration,
+	H.rental_rate,
+	H.length AS movie_length,
+	H.replacement_cost,
+	H.rating,
+	J.first_name AS actor_first_name,
+	J.last_name AS actor_last_name,
+	L.name AS category_name,
+	M.name AS language_name
+FROM customer A
+INNER JOIN payment B ON A.customer_id = B.customer_id
+INNER JOIN address C ON A.address_id = C.address_id
+INNER JOIN city D ON C.city_id = D.city_id
+INNER JOIN country E ON D.country_id = E.country_id
+INNER JOIN rental F ON B.rental_id = F.rental_id
+INNER JOIN inventory G ON F.inventory_id = G.inventory_id
+INNER JOIN film H ON G.film_id = H.film_id
+INNER JOIN film_actor I ON H.film_id = I.film_id
+INNER JOIN actor J ON I.actor_id = J.actor_id
+INNER JOIN film_category K ON I.film_id = K.film_id
+INNER JOIN category L ON K.category_id = L.category_id 
+INNER JOIN language M ON H.language_id = M.language_id
+;
