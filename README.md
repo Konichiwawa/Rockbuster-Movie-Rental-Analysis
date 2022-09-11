@@ -13,6 +13,6 @@ SQL was used to import the company data and to manipulate and extract data into 
 Tableau was used to create data visualizations using the data from the Excel files.
 
 # Resources
-Rockbuster's Data: [dvdrental.zip](https://github.com/Konichiwawa/Rockbuster_Project/files/9541754/dvdrental.zip)
+[Rockbuster's Data]([dvdrental.zip](https://github.com/Konichiwawa/Rockbuster_Project/files/9541754/dvdrental.zip)
 
-Tableau Link: https://public.tableau.com/app/profile/thang.tran4072/viz/RockbusterBusinessAnalysis/Rockbuster
+[Tableau Link](https://public.tableau.com/app/profile/thang.tran4072/viz/RockbusterBusinessAnalysis/Rockbuster)
