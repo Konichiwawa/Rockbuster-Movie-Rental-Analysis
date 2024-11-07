@@ -11,6 +11,5 @@ Steps & Tools
 - Tableau: Utilized to create data visualizations from the exported Excel data.
 
 ## Resources
-[Rockbuster's Data](https://github.com/Konichiwawa/Rockbuster_Project/files/9541754/dvdrental.zip)
-
-[Tableau Link](https://public.tableau.com/app/profile/thang.tran4072/viz/RockbusterBusinessAnalysis/Rockbuster)
+- [Rockbuster's Data](https://github.com/Konichiwawa/Rockbuster_Project/files/9541754/dvdrental.zip)
+- [Tableau Link](https://public.tableau.com/app/profile/thang.tran4072/viz/RockbusterBusinessAnalysis/Rockbuster)
