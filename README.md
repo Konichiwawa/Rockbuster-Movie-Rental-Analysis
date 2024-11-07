@@ -1,15 +1,14 @@
-# Rockbuster_Project
+# Rockbuster Project
+## Objective
+The objective of this project is to prepare Rockbuster, a movie rental company, for the launch of its online movie rental service. A comprehensive business analysis is conducted to address key business questions from various departments and to inform strategic planning for the launch.
 
-## Objective 
-The objective of this project is to help preprare Rockbuster(a movie rental company) before it can launch its online movie rental service. A business analysis must be conducted to answer any key business questions from different departments of the company and to help plan for the launch. 
+# Data
+The Rockbuster dataset includes detailed information on payments, rentals, and customers. It comprises a total of 15 tables, each with specific data, which are imported into a relational database management system (RDBMS) and documented in a data dictionary.
 
-## Data
-The Rockbsuter's data consists of information including payment, rental, and customer. There are a total of 15 tables containing their specific information when imported to RDBMS and they are documented in the data dictionary. 
-
-## Steps & Tools 
-- DbVisualizer was used to extract ERD diagram to create a data dictionary for the data. 
-- SQL was used to import the company data and to manipulate and extract data, and to export it as an Excel file. 
-- Tableau was used to create data visualizations using the data from the exported Excel file.
+Steps & Tools
+- DbVisualizer: Used to extract the Entity-Relationship Diagram (ERD) and create a data dictionary.
+- SQL: Used to import, manipulate, and extract data from the database. The data was then exported to an Excel file for further analysis.
+- Tableau: Utilized to create data visualizations from the exported Excel data.
 
 ## Resources
 [Rockbuster's Data](https://github.com/Konichiwawa/Rockbuster_Project/files/9541754/dvdrental.zip)
