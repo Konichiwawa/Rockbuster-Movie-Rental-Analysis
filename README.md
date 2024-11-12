@@ -14,7 +14,7 @@ The dataset used for the analysis includes detailed information about payments, 
 ## Resources
 - Project_Queries Folder :contains all SQL scripts that were created for this project
 - Rockbuster_Data_Dictionary.pdf: ERD diaggram that was extracted from the dataset using DbVisualizer
-- Rockbuster_Database.csv: 
+- Rockbuster_Database.csv: The clean dataset containing combined infromation from multiple tables. 
 - Rockbuster_Presentation.pdf: the final presentation 
 - [Rockbuster's Data](https://github.com/Konichiwawa/Rockbuster_Project/files/9541754/dvdrental.zip): The raw dataset containing 15 tables related to Rockbuster’s movie rental business.
 - [Tableau Storyboard](https://public.tableau.com/app/profile/thang.tran4072/viz/RockbusterBusinessAnalysis/Rockbuster): An interactive Tableau dashboard showcasing the business analysis, including visualizations and insights.
